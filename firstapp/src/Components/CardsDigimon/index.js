@@ -37,7 +37,7 @@ class CardsDigimon extends Component {
             </Col>
             )}
         </>
-        );
+        )
     }
 }
 

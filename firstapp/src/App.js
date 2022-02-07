@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar";
 import CardsProducts from './Components/CardsProducts/index';
 import { Container, Row } from "react-bootstrap";
 import CardsDigimon from './Components/CardsDigimon/index';
+import Footer from "./Footer";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <CardsDigimon/>
       </Row>
     </Container>
+    <Footer/>
   </>
   );
 }
